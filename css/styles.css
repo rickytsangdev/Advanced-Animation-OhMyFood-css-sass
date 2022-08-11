@@ -1,0 +1,27 @@
+/* Start of General */ 
+* {
+    box-sizing: border-box;
+}
+* {
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+}
+/* Start of Header */
+#logo_ohmyfood {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+}
+#logo_ohmyfood>img {
+    width: 200px;
+    height: auto;
+}
+
+#localisation {
+    display: flex;
+    justify-content: center;
+    background-color: #eaeaea;
+    height: 50px;
+    width: 100%;
+
+}
