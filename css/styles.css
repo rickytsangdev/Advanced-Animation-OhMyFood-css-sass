@@ -7,6 +7,7 @@
 }
 a {
    text-decoration: none;
+   color: #000;
 }
 /* Start of Header */
 #logo_ohmyfood {
@@ -67,4 +68,67 @@ main a {
     box-shadow: 0 5px 10px 5px #eaeaea;
     border-radius: 50px 50px 50px 50px;
     padding: 5%;
+}
+/* End of main */ 
+
+/* Start of section id fonctionnement */ 
+#fonctionnement {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+#fonctionnement>h1 {
+    margin-left: 5%;
+}
+.column_function {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+.column_function>a {
+    width: 70%;
+    margin: auto;
+    background-color: #f6f6f6;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    position:relative;
+}
+.circle_number {
+    width: 35px;
+    height: 35px;
+    background-color: #9356DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    left: -20px;
+    top: 40px;
+}
+.circle_number>p {
+    color: #FFF;
+}
+.column_function>a>p {
+    font-size: 1.2em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fa-solid {
+    display: block;
+}
+.ico_mobile {
+    color: grey;
+    font-size: 1.5em;
+}
+.ico_checklist {
+    color: grey;
+    font-size: 1.5em;
+}
+.ico_store {
+    color: #9356DC;
+    font-size: 1.5em; 
 }
